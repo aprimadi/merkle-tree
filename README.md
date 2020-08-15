@@ -5,7 +5,7 @@ Implementation of Merkle Tree for anti entropy data synchronization protocol in 
 
 ## Background
 
-Amazon Dynamo uses Merkle Tree for anti entropy replica synchronization in the case of permanent failures as described in the paper: [LINK TO PAPER HERE]. However, the paper provides very minimal detail. Thus, this project was developed to gain insight into the detail of such protocol, as well as providing building block for building highly available, fault tolerant distributed systems in Go. This project draw heavy inspiration from the Apache Cassandra Merkle Tree implementation.
+Amazon Dynamo uses Merkle Tree for anti entropy replica synchronization in the case of permanent failures as described in the paper: [Dynamo](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf). However, the paper provides very minimal detail. Thus, this project was developed to gain insight into the detail of such protocol, as well as providing building block for building highly available, fault tolerant distributed systems in Go. This project draw heavy inspiration from the Apache Cassandra Merkle Tree implementation.
 
 ## Hash Function
 
